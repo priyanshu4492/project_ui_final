@@ -197,7 +197,7 @@ class Home_page extends StatelessWidget {
                   child: ListView(
                     scrollDirection: Axis.horizontal,
                     children: [
-                      Image.asset('assets/netflix ui/wik.jpg', width: 100),
+                      
                       Image.asset('assets/netflix ui/dark.jpg', width: 100),
                       Image.asset('assets/netflix ui/tron.jpg', width: 100),
                       Image.asset('assets/netflix ui/god.jpg', width: 100),
