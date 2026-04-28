@@ -1,4 +1,5 @@
 import 'package:all_ui/kids_play_ui/kids_home.dart';
+import 'package:all_ui/modern_signup_page.dart/signup_home.dart';
 import 'package:all_ui/netflix_pages/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: KidsHomePage(),
+      home: SignupHome(
+        
+      ),
     );
   }
 }
