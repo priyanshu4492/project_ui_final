@@ -68,7 +68,11 @@ class SignupHome extends StatelessWidget {
               //welcome
               Text(
                 "WellCome!",
-                style: TextStyle(color: Colors.white, fontSize: 25),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
 
               //sigin in
@@ -84,9 +88,12 @@ class SignupHome extends StatelessWidget {
               //info fill
               Text(
                 "please fill your information",
-                style: TextStyle(color: Colors.blueGrey, fontSize: 20),
+                style: TextStyle(
+                  color: const Color.fromARGB(255, 131, 156, 169),
+                  fontSize: 20,
+                ),
               ),
-
+              const SizedBox(height: 20),
               //sigin in section
               Padding(
                 padding: const EdgeInsets.all(20.0),
@@ -208,7 +215,7 @@ class SignupHome extends StatelessWidget {
                   ),
                 ),
               ),
-
+              const SizedBox(height: 30),
               //signup
               Padding(
                 padding: const EdgeInsets.all(20.0),

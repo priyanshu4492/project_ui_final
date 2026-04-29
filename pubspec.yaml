@@ -66,6 +66,13 @@ flutter:
     - assets/netflix ui/dest.jpg
     - assets/netflix ui/ender.jpg
     - assets/netflix ui/avt.jpg
+  fonts:
+    - family: Redwing
+      fonts:
+        - asset: assets/fonts/Redwing-Light.otf
+          weight: 300
+        - asset: assets/fonts/Redwing-Medium.otf
+          weight: 500
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
