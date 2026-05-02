@@ -1,3 +1,4 @@
+import 'package:all_ui/expence_tracker/tracker_intopage.dart';
 import 'package:all_ui/kids_play_ui/kids_home.dart';
 import 'package:all_ui/modern_signup_page.dart/signup_home.dart';
 import 'package:all_ui/musicsystem/music_home.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MusicHome(
+      home: TrackerIntopage(
         
       ),
       theme: lightMode,
