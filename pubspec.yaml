@@ -60,6 +60,7 @@ flutter:
     - assets/netflix ui/dest.jpg
     - assets/netflix ui/ender.jpg
     - assets/netflix ui/avt.jpg
+    - assets/netflix ui/car.png
   fonts:
     - family: Redwing
       fonts:
